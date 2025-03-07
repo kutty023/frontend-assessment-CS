@@ -1,0 +1,151 @@
+/* navbar container styling */
+.navbar-container{
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Logo and brandname styling */
+#logoBrandname{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    justify-content: start;
+    padding-right: 100px;
+}
+
+#brandName{
+    padding-left: 5px;
+}
+
+#logo-green{
+    width: 2rem;
+    height: 2rem;
+    background-color: greenyellow;
+    border-radius: 0px 0px 50px 0px;
+}
+
+#logo-black{
+    width: 1rem;
+    height: 1rem;
+    background-color: #000000;
+    border-radius: 0px 0px 50px 0px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/* nav links styling */
+#navbar-links>ul{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 50px;
+}
+
+#navbar-links>ul>li{
+    list-style: none;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-items>p{
+    padding-right: 5px;
+}
+
+.nav-items>img{
+    width: 10px;
+    height: auto;
+}
+
+/* Get started and notification styling */
+
+#get-started{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    gap: 10px;
+}
+
+#get-started-btn{
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: none;
+    border: solid 1px #000000;
+}
+
+
+#bell{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bell>img{
+    position: relative;
+}
+
+
+/* For small screen */
+@media (max-width: 1000px) {
+    #logoBrandname{
+        font-size: 20px;
+        font-weight: 500;
+        padding-right: 20px;
+    }
+
+    #logo-green{
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    #logo-black{
+        width: 0.8rem;
+        height: 0.8rem;
+        top: 9px;
+        left: 9px;
+    }
+
+    #navbar-links>ul{
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .nav-items>img{
+        width: 8px;
+    }
+
+    #get-started{
+        gap: 5px;
+    }
+
+    #get-started-btn{
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    #bell{
+        width: 30px;
+        height: 30px;
+    }
+
+    #bell>img{
+        width: 15px;
+    }
+}
