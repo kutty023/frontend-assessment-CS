@@ -5,6 +5,7 @@ import maze from '../assets/maze.png';
 import grow from '../assets/grow.png';
 
 function Home(){
+    const brandLogos = [afterpay, basecamp, maze]
     return(
     <div className='container'>
         <section className="home-container">
@@ -16,18 +17,18 @@ function Home(){
                     An award-winning SEO agency with disciplines in digital marketing, design, and website development, focused on understanding you.
                 </p>
                 <div className='schedule-container'>
-                    <div id='schedule-btn'>
-                        <button type="button">Schedule Call <span id="arrow-icon"> -></span></button>
+                    <div className='schedule-btn'>
+                        <button type="button">Schedule Call <span id="arrow-icon"> &rarr;</span></button>
                     </div>
                     <div>
-                        <a id='viewCaseStudy-link' href="#">View Case Study</a>
+                        <a id='viewCaseStudy-link' href="" target="_blank" rel="noopener noreferrer">View Case Study</a>
                     </div>
                 </div>
                 <div className='brand-container'>
                     <h6>Trusted by the world's biggest brands</h6>
                     <div className='brandImages'>
-                        {[afterpay, basecamp, maze].map((item, index) => (
-                                <img  key={index} src={item} alt={`${item}-image`} />  
+                        {brandLogos.map((item, index) => (
+                                <img  key={index} src={item} alt={`${brandLogos[item]} logo`} />  
                         ))}
                     </div>
                 </div>
@@ -35,9 +36,9 @@ function Home(){
 
             <div className="sub-container-two">
                 <div className='company-work-growth'>
-                    <div id='computerImage'>
-                        <div id='grow-stat-black'>
-                            <div id='grow-stat-green'>
+                    <div className='computerImage'>
+                        <div className='grow-stat-black'>
+                            <div className='grow-stat-green'>
                                 <img src={grow} alt="grow" />
                             </div>
                         </div>
@@ -45,26 +46,26 @@ function Home(){
                     <div className='company-growth-data'>
                         <h1>230+</h1>
                         <p>some big companies that we work with, and trust us very much</p>
-                        <div id='bar-stat-container'>
-                            <div id='bar-stat-rate'></div>
+                        <div className='bar-stat-container'>
+                            <div className='bar-stat-rate'></div>
                         </div>
                     </div>
                 </div>
                 <div className='company-sales-stat'>
                     <div className="company-sales-data-stat">
-                        <div id='company-mission-text'>
-                            <div id="company-mission-text-line-data">
-                                <div id='line'></div>
+                        <div className='company-mission-text'>
+                            <div className="company-mission-text-line-data">
+                                <div className='line'></div>
                                 <p>Drive More Traffic and Sales</p>
                             </div>
                             <h2>Drive more traffic and product sales</h2>
                         </div>
                         <div className='company-sales-rates'>
-                        </div>
-                        <div id='company-sales-rates-bar'>
-                            <div id='statlightgreen'></div>
-                            <div id='statgreen'></div>
-                            <div id='statdarkgreen'></div>
+                            <div className='company-sales-rates-bar'>
+                                <div className='stat-light-green'></div>
+                                <div className='stat-green'></div>
+                                <div className='stat-dark-green'></div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@
 }
 
 /* Logo and brandname styling */
-#logoBrandname{
+.logo-brand-name{
     display: flex;
     align-items: center;
     font-size: 25px;
@@ -17,18 +17,18 @@
     padding-right: 100px;
 }
 
-#brandName{
+.main-brand-name{
     padding-left: 5px;
 }
 
-#logo-green{
+.brand-logo-green{
     width: 2rem;
     height: 2rem;
     background-color: #A6F254;
     border-radius: 0px 0px 50px 0px;
 }
 
-#logo-black{
+.brand-logo-black{
     width: 1rem;
     height: 1rem;
     background-color: #000000;
@@ -39,7 +39,7 @@
 }
 
 /* nav links styling */
-#navbar-links>ul{
+.navbar-links>ul{
     display: flex;
     align-items: center;
     font-size: 15px;
@@ -47,7 +47,7 @@
     gap: 50px;
 }
 
-#navbar-links>ul>li{
+.navbar-links>ul>li{
     list-style: none;
 }
 
@@ -68,7 +68,7 @@
 
 /* Get started and notification styling */
 
-#get-started{
+.get-started{
     display: flex;
     align-items: center;
     position: absolute;
@@ -86,7 +86,7 @@
 }
 
 
-#bell{
+.bell{
     width: 40px;
     height: 40px;
     padding: 5px;
@@ -97,55 +97,6 @@
     align-items: center;
 }
 
-#bell>img{
+.bell>img{
     position: relative;
-}
-
-
-/* For small screen */
-@media (max-width: 1000px) {
-    #logoBrandname{
-        font-size: 20px;
-        font-weight: 500;
-        padding-right: 20px;
-    }
-
-    #logo-green{
-        width: 1.8rem;
-        height: 1.8rem;
-    }
-
-    #logo-black{
-        width: 0.8rem;
-        height: 0.8rem;
-        top: 9px;
-        left: 9px;
-    }
-
-    #navbar-links>ul{
-        font-size: 12px;
-        gap: 10px;
-    }
-
-    .nav-items>img{
-        width: 8px;
-    }
-
-    #get-started{
-        gap: 5px;
-    }
-
-    #get-started-btn{
-        padding: 8px 20px;
-        font-size: 12px;
-    }
-
-    #bell{
-        width: 30px;
-        height: 30px;
-    }
-
-    #bell>img{
-        width: 15px;
-    }
 }
