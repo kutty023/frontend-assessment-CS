@@ -1,4 +1,4 @@
-# Dribbble Design Implementation - Cappricio Securities
+# Dribbble Design Implementation - Cappricio Securities - Assessment
 
 This project is an implementation of a UI design from Dribbble as part of an assessment given by **Cappricio Securities**. The goal is to accurately translate the given design into a functional website using modern web development technologies.
 
