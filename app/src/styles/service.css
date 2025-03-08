@@ -1,0 +1,129 @@
+.service-container{
+    padding-top: 3rem;
+}
+
+.service-data-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+.service-data-container>h3, 
+.service-data-container>p{
+    width: 50%;
+}
+
+.service-data-container>h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.service-data-container>p{
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+}
+
+.projects-service-container{
+    display: flex;
+    gap: 15px;
+    padding-top: 2rem;
+}
+
+.project-data-container-main{
+    background: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.project-data-container{
+    padding: 20px;
+    background: url('../assets/statimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 5.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#people{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#people>#more-people{
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+#people>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#project-count{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#project-count>h1>span{
+    color: #A5D080;
+}
+
+#project-count>h1{
+    font-size: 50px;
+    word-spacing: -10px;
+    font-weight: 750;
+}
+
+#project-count>p{
+    font-size: 15px;
+    color: rgb(161, 161, 161);  
+}
+
+.group-discussion{
+    background: url('../assets/groupDisscussion.png');
+    width: 100%;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+}
+
+#play-btn, #play-btn-green, #play-btn-black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play-btn{
+    background: #ffffff;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    right: -25px;
+}
+
+#play-btn-green{
+    background: #99E948;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#play-btn-black>img{
+    width: 40px;
+    height: 40px;
+}
