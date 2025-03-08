@@ -7,7 +7,7 @@ import grow from '../assets/grow.png';
 function Home(){
     return(
     <div className='container'>
-        <div className="home-container">
+        <section className="home-container">
             <div className="sub-container-one">
                 <h2>
                     Stay ahead of the curve with our forward-thinking
@@ -69,7 +69,7 @@ function Home(){
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
     )
 }
