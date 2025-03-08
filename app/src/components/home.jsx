@@ -24,7 +24,7 @@ function Home(){
                     </div>
                 </div>
                 <div className='brand-container'>
-                    <h6>Trusted by the wordl's biggest brands</h6>
+                    <h6>Trusted by the world's biggest brands</h6>
                     <div className='brandImages'>
                         {[afterpay, basecamp, maze].map((item, index) => (
                                 <img  key={index} src={item} alt={`${item}-image`} />  
@@ -45,7 +45,7 @@ function Home(){
                     <div className='company-growth-data'>
                         <h1>230+</h1>
                         <p>some big companies that we work with, and trust us very much</p>
-                        <div id='bar-stat-conatiner'>
+                        <div id='bar-stat-container'>
                             <div id='bar-stat-rate'></div>
                         </div>
                     </div>
