@@ -8,16 +8,16 @@ function Navbar(){
         <div className="container">
             <nav className="navbar-container">
                 {/* logo and brand name */}
-                <div id="logoBrandname">
-                    <div id="logo">
-                        <div id="logo-green">
-                            <div id="logo-black"></div>
+                <div className="logo-brand-name">
+                    <div className="logo">
+                        <div className="brand-logo-green">
+                            <div className="brand-logo-black"></div>
                         </div>
                     </div>
-                    <div id="brandName">boostim</div>
+                    <div className="main-brand-name">boostim</div>
                 </div>
                 {/* navbar links */}
-                <div id="navbar-links">
+                <div className="navbar-links">
                     <ul>
                         {navLinks.map((item, index) =>(
                             <li key={index}>
@@ -30,10 +30,10 @@ function Navbar(){
                     </ul>
                 </div>
                 {/* bell notification button */}
-                <div id="get-started">
+                <div className="get-started">
                     <button type="button" id="get-started-btn">Get Started</button>
-                    <div id="bell-btn">
-                        <div id="bell">
+                    <div className="bell-btn">
+                        <div className="bell">
                             <img src={bellIcon} alt="notification bell icon" />
                         </div>
                     </div>

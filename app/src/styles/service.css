@@ -47,42 +47,42 @@
     overflow: hidden;
 }
 
-#people{
+.people{
     display: flex;
     gap: 5px;
     justify-content: center;
     align-items: center;
 }
 
-#people>#more-people{
+.people>#more-people{
     font-size: 50px;
     font-weight: 800;
     padding-left: 5px;
 }
 
-#people>img{
+.people>img{
     width: 50px;
     height: 50px;
     border-radius: 50px;
 }
 
-#project-count{
+.project-count{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-#project-count>h1>span{
+.project-count>h1>span{
     color: #A5D080;
 }
 
-#project-count>h1{
+.project-count>h1{
     font-size: 50px;
     word-spacing: -10px;
     font-weight: 750;
 }
 
-#project-count>p{
+.project-count>p{
     font-size: 15px;
     color: rgb(161, 161, 161);  
 }
@@ -107,13 +107,13 @@
     letter-spacing: 5px;
 }
 
-#play-btn, #play-btn-green, #play-btn-black{
+.play-btn, .play-btn-green, .play-btn-black{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#play-btn{
+.play-btn{
     background: #F7F7F7;
     width: 145px;
     height: 145px;
@@ -123,14 +123,14 @@
     right: -25px;
 }
 
-#play-btn-green{
+.play-btn-green{
     background: #99E948;
     width: 120px;
     height: 120px;
     border-radius: 50%;
 }
 
-#play-btn-black>img{
+.play-btn-black>img{
     width: 40px;
     height: 40px;
 }
