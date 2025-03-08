@@ -1,11 +1,12 @@
 import './App.css';
 import Navbar from './components/navbar.jsx';
+import Home from './components/home.jsx';
 
 function App() {
   return (
     <>
     <Navbar />
-    {/* <h3>Hi, this app.jsx</h3> */}
+    <Home />
     </>
   )
 }

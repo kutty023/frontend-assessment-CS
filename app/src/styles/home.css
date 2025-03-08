@@ -1,0 +1,236 @@
+.home-container{
+    padding-top: 3rem;
+    display: flex;
+    align-items: end;
+    gap: 40px;
+}
+
+.sub-container-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-container-one>h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.sub-container-one>p{
+    font-size: 12px;
+    color: grey;
+    font-weight: 450;
+}
+
+.schedule-container{
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+#schedule-btn>button{
+    cursor: pointer;
+    color: white;
+    background: #000000;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+#arrow-icon{
+    padding-left: 20px;
+}
+
+#viewCaseStudy-link{
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline rgb(161, 161, 161);
+}
+
+.brand-container{
+    padding: 40px 20px 0px 0px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.brandImages{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brandImages>img{
+    height: auto;
+    max-width: 80px;
+}
+
+.sub-container-two{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.company-work-growth{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#computerImage{
+    background: url('../assets/comp.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    padding-right: 20px;
+    border-radius: 200px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#grow-stat-black{
+    width: 4rem;
+    height: 4rem;
+    background-color: #000000;
+    border-radius: 50px;
+    position: absolute;
+    top: -25px;
+    box-shadow:  0px 5px 10px #0000008b;
+}
+
+#grow-stat-black, #grow-stat-green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grow-stat-green{
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #B5DA83;
+    border-radius: 4px;
+}
+
+#grow-stat-green>img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.company-growth-data{
+    width: 200px;
+    height: 200px;
+}
+
+.company-growth-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 15px;
+    background: #F0F0F0;
+    border-radius: 15px;
+}
+
+.company-growth-data>h1{
+    font-size: 50px;
+}
+
+.company-growth-data>p{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+#bar-stat-conatiner{
+    width: 100%;
+    height: 5px;
+    background: #D8D8D8;
+}
+
+#bar-stat-rate{
+    width: 70%;
+    height: 5px;
+    background: #000000;
+}
+
+.company-sales-stat{
+    width: 100%;
+    height: 180px;
+    background: #000000;
+    border-radius: 15px;
+}
+
+.company-sales-data-stat{
+    width: 100%;
+    height: 100%;
+    background: url('../assets/statimage.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    position: relative;
+}
+
+#company-mission-text-line-data{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+#company-mission-text-line-data>#line{
+    width: 40px;
+    height: 1px;
+    background: #ffffff;
+}
+
+#company-mission-text-line-data>p{
+    font-size: 12px;
+}
+
+#company-mission-text>h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.company-sales-rates{
+   display: flex;
+   width: 200px;
+}
+
+#company-sales-rates-bar{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+#statlightgreen{
+    height: 70px;
+    width: 50px;
+    background: #BAE289;
+}
+
+#statgreen{
+    height: 100px;
+    width: 50px;
+    background: #9ACF65;
+}
+
+#statdarkgreen{
+    height: 130px;
+    width: 50px;
+    background: #7BB34E;
+}
