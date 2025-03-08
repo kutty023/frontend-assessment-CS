@@ -18,7 +18,7 @@
 
 .sub-container-one>p{
     font-size: 12px;
-    color: grey;
+    color:  rgb(161, 161, 161);
     font-weight: 450;
 }
 
@@ -30,7 +30,7 @@
 
 #schedule-btn>button{
     cursor: pointer;
-    color: white;
+    color: #ffffff;
     background: #000000;
     font-size: 15px;
     padding: 10px 20px;
@@ -43,7 +43,7 @@
 }
 
 #viewCaseStudy-link{
-    color: black;
+    color: #000000;
     font-size: 12px;
     font-weight: 500;
     text-decoration: underline rgb(161, 161, 161);
