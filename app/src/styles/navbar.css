@@ -11,14 +11,14 @@
 .logo-brand-name{
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     justify-content: start;
-    padding-right: 100px;
+    padding-right: 3.5rem;
 }
 
 .main-brand-name{
-    padding-left: 5px;
+    padding-left: 0.5rem;
 }
 
 .brand-logo-green{
@@ -43,8 +43,8 @@
     display: flex;
     align-items: center;
     font-size: 15px;
-    font-weight: 500;
-    gap: 50px;
+    font-weight: 550;
+    gap: 2rem;
 }
 
 .navbar-links>ul>li{
@@ -67,7 +67,6 @@
 }
 
 /* Get started and notification styling */
-
 .get-started{
     display: flex;
     align-items: center;
@@ -78,11 +77,11 @@
 
 #get-started-btn{
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px 25px;
-    font-weight: 500;
+    font-weight: 550;
     background: none;
-    border: solid 1px #000000;
+    border: solid 2px #000000;
 }
 
 
@@ -99,4 +98,48 @@
 
 .bell>img{
     position: relative;
+    width: 15px;
+    height: auto;
 }
+
+
+@media (max-width: 900px) {
+    /* Logo and brandname styling */
+    .logo-brand-name{
+        font-size: 25px;
+        padding-right: 2rem;
+    }
+
+    .main-brand-name{
+        padding-left: 0.4rem;
+    }
+
+    .navbar-links>ul{
+        font-size: 14px;
+        font-weight: 550;
+        gap: 1rem;
+    }
+
+    .nav-items>p{
+        padding-right: 4px;
+    }
+
+    .get-started{
+        gap: 7px;
+    }
+
+    #get-started-btn{
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+
+    .bell{
+        width: 35px;
+        height: 35px;
+    }
+
+    .bell>img{
+        width: 12px;
+    }
+  }

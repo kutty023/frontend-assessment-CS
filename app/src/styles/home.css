@@ -81,7 +81,7 @@
     align-items: center;
 }
 
-#computerImage{
+.computerImage{
     background: url('../assets/comp.jpeg');
     background-position: center;
     background-repeat: no-repeat;
