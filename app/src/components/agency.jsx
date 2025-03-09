@@ -47,7 +47,9 @@ function Agency(){
     return(
         <>
         <section className="agency-container">
-            <div className="agency-content"></div>
+            <div className="agency-content">
+                <h2>Real-world examples of how we have helped companies achieve their marketing objectives.</h2>
+            </div>
             <div className="categories">
                 {techCategories.map((item) => (
                     <button type="button"> {item.category} [{item.count}]</button>
@@ -55,7 +57,7 @@ function Agency(){
             </div>
             <div className="cards">
                 {cardContents.map((item) => (
-                    <div key={item.id} className='card'>
+                    <div key={item.id} className='card' id={`card-${item.id}`}>
                         <div className="corporation">
                             <div className='line'></div>
                             <p>{item.comp}</p>
@@ -74,7 +76,7 @@ function Agency(){
                         <img src={person} alt="person image" />
                         <div className='personal-info'>
                             <h4>Michael Kaizer</h4>
-                            <p>CEC of Basecamp Corp</p>
+                            <p>CEO of Basecamp Corp</p>
                         </div>
                     </div>
                     <div className="next-and-prev-btn">

@@ -1,0 +1,288 @@
+.agency-container{
+    width: 85vw;
+    justify-self: center;
+    margin-top: 3rem;
+    background: rgb(25, 24, 24);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 20px;
+    gap: 30px;
+}
+
+.agency-content{
+    text-align: center;
+}
+
+.agency-content>h2{
+    font-size: 40px;
+}
+
+.categories{
+    display: flex;
+    gap: 2rem;
+}
+
+.categories>button{
+    background: transparent;
+    padding: 10px 30px;
+    color: var(--secondary-color);
+    border: solid 0.8px var(--secondary-color);
+    border-radius: 50px;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+.categories>button:hover{
+    background: #9ACF63;
+    color: var(--primary-color);
+    border: solid 0.8px #9ACF63;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: solid 8px #515256;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card:hover{
+    border-radius: 50%;
+}
+
+.card:hover .corporation,
+.card:hover p {
+    display: none;
+}
+
+.card:hover>.card-btn{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.card>.card-btn{
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    opacity: 0;
+    background: #99E948;
+    font-size: var(--para-font-size);
+}
+
+.corporation{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.corporation>p{
+    font-size: var(--para-font-size);
+}
+
+.corporation>.line{
+    height: 1px;
+}
+
+#card-1{
+    background: url('../assets/card1img.png');
+}
+
+#card-2{
+    background: url('../assets/card2img.png');
+}
+
+#card-3{
+    background: url('../assets/card3img.png');
+}
+
+#card-1, #card-2, #card-3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* 2nd div/part styling */
+
+.individual-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.individual-info>p{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 550;
+}
+.person-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.person-info-data>img{
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.person-info-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.personal-info>h4{
+    font-size: var(--para-font-size);
+}
+
+.personal-info>p{
+    font-size: 12px;
+}
+
+.next-and-prev-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    color: var(--text-color);
+}
+
+.next-and-prev-btn>p>#curr-person{
+    color: var(--primary-color);
+}
+
+.next-and-prev-btn>button{
+    width: 50px;
+    height: 35px;
+    background: none;
+    border: solid 2px var(--primary-color);
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.next-and-prev-btn>button:hover{
+    cursor: pointer;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+@media (max-width: 900px) {
+    .agency-container{
+        width: 95vw;
+        padding: 2rem;
+        gap: 20px;
+    }
+    
+    .agency-content>h2{
+        font-size: 30px;
+    }
+    
+    .categories{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .categories>button{
+        padding: 7px 20px;
+        font-size: 12px;
+    }
+    
+    .card{
+        width: 180px;
+        height: 180px;
+        border: solid 7px #515256;
+        padding: 15px;
+    }
+    
+    .card>.card-btn{
+        padding: 7px;
+        width: 80px;
+        height: 80px;
+        font-size: 12px;
+    }
+    
+    .corporation>p{
+        font-size: 12px;
+    }
+    
+    .corporation>.line{
+        width: 25px;
+    }
+    
+    .individual-info{
+        padding-top: 2rem;
+    }
+    
+    .individual-info>p{
+        font-size: 20px;
+    }
+    
+    .person-info-data>img{
+        height: 40px;
+    }
+    
+    .person-info-data{
+        gap: 7px;
+    }
+    
+    .personal-info{
+        gap: 3px;
+    }
+    
+    .personal-info>h4{
+        font-size: 14px;
+    }
+    
+    .personal-info>p{
+        font-size: 10px;
+    }
+    
+    .next-and-prev-btn{
+        gap: 15px;
+        font-size: 10px;
+    }
+    
+    .next-and-prev-btn>button{
+        width: 45px;
+        height: 30px;
+        padding-bottom: 4px;
+    }
+}
