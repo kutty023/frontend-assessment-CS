@@ -247,7 +247,6 @@
         gap: 2rem;
     }
 
-    /* sub container one styling */
     .sub-container-one{
         gap: 20px;
     }
@@ -361,5 +360,5 @@
     .stat-dark-green{
         height: 90px;
     }
-    
+
 }
