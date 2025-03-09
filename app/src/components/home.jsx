@@ -18,7 +18,7 @@ function Home(){
                 </p>
                 <div className='schedule-container'>
                     <div className='schedule-btn'>
-                        <button type="button">Schedule Call <span id="arrow-icon"> &rarr;</span></button>
+                        <button type="button">Schedule Call <span id="arrow-icon">&#10132;</span></button>
                     </div>
                     <div>
                         <a id='viewCaseStudy-link' href="" target="_blank" rel="noopener noreferrer">View Case Study</a>

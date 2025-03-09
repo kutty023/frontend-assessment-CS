@@ -2,7 +2,9 @@
     width: 85vw;
     justify-self: center;
     margin-top: 3rem;
-    background: rgb(25, 24, 24);
+    background: url('../assets/background-image-sec.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: var(--secondary-color);
     display: flex;
     flex-direction: column;

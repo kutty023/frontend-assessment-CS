@@ -5,7 +5,7 @@ import Service from './components/service.jsx';
 import Agency from './components/agency.jsx';
 import CaseStudy from './components/caseStudey.jsx';
 import Resource from './components/resource.jsx';
-// import Contact from './components/contact.jsx';
+import Contact from './components/contact.jsx';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
     <Agency />
     <CaseStudy />
     <Resource />
-    {/* <Contact /> */}
+    <Contact />
     </>
   )
 }
