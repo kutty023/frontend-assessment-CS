@@ -34,7 +34,7 @@ function CaseStudy(){
     return(
         <div className="container">
             <section className="caseStudy-container">
-                <div className="caseStudy-subcontainer-one">
+                <div className="caseStudy-subcontainer-one divided-section-part1">
                     <h1>Digital Marketing FAQs</h1>
                     <p>As a leading digital marketing agency, we are dedicated to providing comprehensive educational resources and answering frequently asked questions to help our clients.</p>
                     <div className="more-quest-btn">
@@ -42,12 +42,15 @@ function CaseStudy(){
                         <a href="" target="_blank" rel="noopener noreferrer">Contact Us</a>
                     </div>
                 </div>
-                <div className="caseStudy-subcontainer-two">
+                <div className="caseStudy-subcontainer-two divided-section-part2">
                     {infoData.map((item) => (
                         <div key={item.id} className="caseStudy-expandable">
                             <h3>
                                 <button id="toggle-btn" onClick={() => toggleOverExpand(item.id)}>
-                                    {item.title}{expandedId === item.id ? "-" : "+"}
+                                    <ul>
+                                        <li>{item.title}</li>
+                                        <li>{expandedId === item.id ? "-" : "+"}</li>
+                                    </ul>
                                 </button>
                             </h3>
                             {expandedId === item.id && (
