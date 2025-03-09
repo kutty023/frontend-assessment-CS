@@ -133,3 +133,9 @@
 .phone-number>img, .email>img, .address>img{
     padding-right: 5px;
 }
+
+@media (max-width: 900px) {
+    .signup-container{
+        width: 95vw;
+    }
+}
