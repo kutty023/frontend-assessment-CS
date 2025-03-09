@@ -15,6 +15,7 @@
     font-size: 30px;
     display: flex;
     align-items: center;
+    padding-right: 2rem;
 }
 
 .resouce-data-and-btn{
@@ -38,6 +39,7 @@
 
 /* card styling */
 .resource-info-qas{
+    padding-top: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -104,4 +106,61 @@
 .res-desc>button:hover{
     background: var(--primary-color);
     color: var(--secondary-color);
+}
+
+@media (max-width : 900px) {
+    .resouce-data-and-btn>p{
+        font-size: 12px;
+        padding-bottom: 1.5rem;
+    }
+    
+    .resource-content>h1{
+        padding-right: 1rem;
+    }
+
+    .resouce-data-and-btn>button{
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+    
+    /* card styling */
+    .resource-info-qas{
+        padding-top: 2rem;
+    }
+    
+    .resource-circle{
+        width: 7px;
+        height: 7px;
+    }
+    
+    #resource-circle1{
+        background: #40ABEC;
+    }
+    
+    #resource-circle2{
+        background: #F75B34;
+    }
+    
+    #resource-circle3{
+        background: #6A1BF0;
+    }
+    
+    .resource-layer>p{
+        font-size: 12px;
+    }
+    
+    .res-card>h3{
+        font-size: 15px;
+        padding-right: 3rem;
+    }
+    
+    .res-desc{
+        gap: 10px;
+    }
+    
+    .res-desc>button{
+        padding: 0px 15px 4px 15px;
+        font-size: 15px;
+    }
+    
 }
