@@ -2,7 +2,7 @@
 
 This project is an implementation of a UI design from Dribbble as part of an assessment given by **Cappricio Securities**. The goal is to accurately translate the given design into a functional website using modern web development technologies.
 
-# Output : 
+# Deployed link : https://frontend-assessment-cs.vercel.app/
 
 ## 🚀 Tech Stack
 - **React** – Frontend framework for building the UI
