@@ -170,6 +170,7 @@
 
 .personal-info>p{
     font-size: 12px;
+    color: var(--text-color);
 }
 
 .next-and-prev-btn{
