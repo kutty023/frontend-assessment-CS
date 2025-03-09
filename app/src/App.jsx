@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar.jsx';
 import Home from './components/home.jsx';
-// import Service from './components/service.jsx';
+import Service from './components/service.jsx';
 // import Contact from './components/contact.jsx';
 // import Agency from './components/agency.jsx';
 // import CaseStudy from './components/caseStudey.jsx';
@@ -12,7 +12,7 @@ function App() {
     <>
     <Navbar />
     <Home />
-    {/* <Service /> */}
+    <Service />
     {/* <Agency /> */}
     {/* <CaseStudy /> */}
     {/* <Resource /> */}

@@ -14,7 +14,7 @@ function Service(){
                     <div className='project-data-container-main'>
                         <div className="project-data-container">
                             <div className='project-count'>
-                            <h1>920 <span>+</span></h1>
+                                <h1>920 <span>+</span></h1>
                                 <p>Project finish with superbly</p>
                             </div>
                             <div className='people'>

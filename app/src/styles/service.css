@@ -4,7 +4,7 @@
 
 .service-data-container{
     display: flex;
-    gap: 20px;
+    gap: 4rem;
 }
 
 
@@ -14,35 +14,35 @@
 }
 
 .service-data-container>h3{
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 40px;
+    font-weight: 550;
 }
 
 .service-data-container>p{
     color: rgb(161, 161, 161);
-    font-size: 12px;
+    font-size: var(--para-font-size);
 }
 
 .projects-service-container{
     display: flex;
-    gap: 15px;
+    gap: 20px;
     padding-top: 2rem;
 }
 
 .project-data-container-main{
-    background: #000000;
-    color: #ffffff;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 20px;
 }
 
 .project-data-container{
-    padding: 20px;
+    padding: 20px 30px;
     background: url('../assets/statimage.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    gap: 5.5rem;
+    gap: 5rem;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -56,20 +56,19 @@
 
 .people>#more-people{
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 750;
     padding-left: 5px;
 }
 
 .people>img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
 }
 
 .project-count{
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .project-count>h1>span{
@@ -77,9 +76,9 @@
 }
 
 .project-count>h1{
-    font-size: 50px;
-    word-spacing: -10px;
-    font-weight: 750;
+    font-size: 65px;
+    word-spacing: -8px;
+    font-weight: 550;
 }
 
 .project-count>p{
@@ -87,6 +86,7 @@
     color: rgb(161, 161, 161);  
 }
 
+/* group discussion container */
 .group-discussion{
     background: url('../assets/groupDisscussion.png');
     width: 100%;
@@ -102,7 +102,7 @@
 
 .group-discussion>h1{
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     word-spacing: 15px;
     letter-spacing: 5px;
 }
@@ -115,8 +115,8 @@
 
 .play-btn{
     background: #F7F7F7;
-    width: 145px;
-    height: 145px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     position: absolute;
     bottom: -25px;
@@ -133,4 +133,75 @@
 .play-btn-black>img{
     width: 40px;
     height: 40px;
+}
+
+@media (max-width : 900px) {
+    .service-container{
+        padding-top: 2rem;
+    }
+    
+    .service-data-container{
+        gap: 1rem;
+    }
+    
+    .service-data-container>h3{
+        font-size: 30px;
+    }
+    
+    .service-data-container>p{
+        font-size: 12px;
+    }
+    
+    .projects-service-container{
+        gap: 15px;
+        padding-top: 1.5rem;
+    }
+    
+    .project-data-container{
+        padding: 10px 20px;
+        gap: 3rem;
+    }
+    
+    .people{
+        gap: 2px;
+    }
+    
+    .people>#more-people{
+        font-size: 25px;
+    }
+    
+    .people>img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .project-count>h1{
+        font-size: 40px;
+        word-spacing: -5px;
+    }
+    
+    .project-count>p{
+        font-size: 10px; 
+    }
+    
+    /* group discussion container */
+    .group-discussion>h1{
+        font-size: 30px;
+        word-spacing: 12px;
+    }
+    
+    .play-btn{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .play-btn-green{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .play-btn-black>img{
+        width: 20px;
+        height: 20px;
+    }
 }
