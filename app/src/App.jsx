@@ -4,8 +4,8 @@ import Home from './components/home.jsx';
 import Service from './components/service.jsx';
 import Agency from './components/agency.jsx';
 import CaseStudy from './components/caseStudey.jsx';
+import Resource from './components/resource.jsx';
 // import Contact from './components/contact.jsx';
-// import Resource from './components/resource.jsx';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
     <Service />
     <Agency />
     <CaseStudy />
-    {/* <Resource /> */}
+    <Resource />
     {/* <Contact /> */}
     </>
   )

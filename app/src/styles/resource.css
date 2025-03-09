@@ -1,0 +1,166 @@
+.resource-container{
+    padding-top: 3rem;
+}
+
+.resource-content{
+    display: flex;
+    gap: 2rem;
+}
+
+.resource-content>h1, .resource-content>.resouce-data-and-btn{
+    width: 50%;
+}
+
+.resource-content>h1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.resouce-data-and-btn{
+    padding-left: 2rem;
+}
+
+.resouce-data-and-btn>p{
+    font-size: var(--para-font-size);
+    color: var(--text-color);
+    padding-bottom: 2rem;
+}
+
+.resouce-data-and-btn>button{
+    border: solid 2px var(--primary-color);
+    background: transparent;
+    font-size: var(--para-font-size);
+    font-weight: 550;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* card styling */
+.resource-info-qas{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.res-card{
+    border-radius: 20px;
+    background: var(--secondary-color);
+    padding: 20px 15px;
+}
+
+.res-card>.resource-layer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.resource-circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+#resource-circle1{
+    background: #40ABEC;
+}
+
+#resource-circle2{
+    background: #F75B34;
+}
+
+#resource-circle3{
+    background: #6A1BF0;
+}
+
+.resource-layer>p{
+    font-size: var(--para-font-size);
+    color: var(--text-color);
+}
+
+.res-card>h3{
+    font-size: 18px;
+    padding-bottom: 2rem;
+    padding-right: 4rem;
+}
+
+.res-desc{
+    display: flex;
+    gap: 20px;
+}
+
+.res-desc>button{
+    padding: 2px 15px 7px 15px;
+    background: transparent;
+    border: solid 2px var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.res-desc>button:hover{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+@media (max-width : 900px) {
+    .resouce-data-and-btn>p{
+        font-size: 12px;
+        padding-bottom: 1.5rem;
+    }
+    
+    .resource-content>h1{
+        padding-right: 1rem;
+    }
+
+    .resouce-data-and-btn>button{
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+    
+    /* card styling */
+    .resource-info-qas{
+        padding-top: 2rem;
+    }
+    
+    .resource-circle{
+        width: 7px;
+        height: 7px;
+    }
+    
+    #resource-circle1{
+        background: #40ABEC;
+    }
+    
+    #resource-circle2{
+        background: #F75B34;
+    }
+    
+    #resource-circle3{
+        background: #6A1BF0;
+    }
+    
+    .resource-layer>p{
+        font-size: 12px;
+    }
+    
+    .res-card>h3{
+        font-size: 15px;
+        padding-right: 3rem;
+    }
+    
+    .res-desc{
+        gap: 10px;
+    }
+    
+    .res-desc>button{
+        padding: 0px 15px 4px 15px;
+        font-size: 15px;
+    }
+    
+}

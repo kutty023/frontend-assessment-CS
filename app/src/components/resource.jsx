@@ -31,15 +31,15 @@ function Resource(){
                 </div>
                 <div className='resource-info-qas'>
                     {resourceInfoData.map((item) =>(
-                        <div key={item.id}>
-                            <div className='resource-layer'>
-                                <div className="resource-circle"></div>
+                        <div key={item.id} className='res-card'>
+                            <div className='resource-layer' >
+                                <div className="resource-circle" id={`resource-circle${item.id}`}></div>
                                 <p>5 min read</p>
                             </div>
                             <h3>{item.title}</h3>
-                            <div className='resource-layer'>
+                            <div className='resource-layer res-desc'>
                                 <p>{item.desc}</p>
-                                <button type="button"> </button>
+                                <button type="button"> &rarr;</button>
                             </div>
                         </div>
                     ))}
