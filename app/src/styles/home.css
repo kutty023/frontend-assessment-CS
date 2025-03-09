@@ -1,26 +1,23 @@
+/* home container styling */
 .home-container{
     padding-top: 3rem;
     display: flex;
     align-items: flex-end;
-    gap: 40px;
+    gap: 3.5rem;
 }
 
+/* sub container one styling */
 .sub-container-one{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .sub-container-one>h2{
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 60px;
+    font-weight: 550;
 }
 
-.sub-container-one>p{
-    font-size: 12px;
-    color:  rgb(161, 161, 161);
-    font-weight: 450;
-}
 
 .schedule-container{
     display: flex;
@@ -30,31 +27,34 @@
 
 .schedule-btn>button{
     cursor: pointer;
-    color: #ffffff;
-    background: #000000;
-    font-size: 15px;
-    padding: 10px 20px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    font-size: var(--para-font-size);
+    padding: 10px 25px;
     border: none;
     border-radius: 50px;
 }
 
 #arrow-icon{
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 #viewCaseStudy-link{
-    color: #000000;
-    font-size: 12px;
-    font-weight: 500;
-    text-decoration: underline rgb(161, 161, 161);
+    color: var(--primary-color);
+    font-size: 14px;
+    text-decoration: underline var(--text-color);
 }
 
 .brand-container{
-    padding: 40px 20px 0px 0px;
+    padding: 40px 0px;
     display: flex;
-    gap: 20px;
+    gap: 2rem;
     align-items: center;
     justify-content: flex-start;
+}
+
+.brand-container>h6{
+    font-size: var(--para-font-size);
 }
 
 .brandImages{
@@ -68,6 +68,8 @@
     max-width: 80px;
 }
 
+/* sub container 2 styling */
+
 .sub-container-two{
     display: flex;
     flex-direction: column;
@@ -76,9 +78,9 @@
 
 .company-work-growth{
     display: flex;
-    gap: 15px;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .computerImage{
@@ -86,10 +88,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 230px;
     padding-right: 20px;
-    border-radius: 200px 0px 0px;
+    border-radius: 250px 0px 0px;
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -98,11 +100,11 @@
 .grow-stat-black{
     width: 4rem;
     height: 4rem;
-    background-color: #000000;
+    background-color: var(--primary-color);
     border-radius: 50px;
     position: absolute;
     top: -25px;
-    box-shadow:  0px 5px 10px #0000008b;
+    box-shadow:  0px 5px 10px rgb(86, 86, 86);
 }
 
 .grow-stat-black, .grow-stat-green{
@@ -124,28 +126,26 @@
 }
 
 .company-growth-data{
-    width: 200px;
-    height: 200px;
-}
-
-.company-growth-data{
+    width: 250px;
+    height: 230px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
     background: #F0F0F0;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .company-growth-data>h1{
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .company-growth-data>p{
-    font-size: 12px;
+    font-size: 15px;
     padding-bottom: 15px;
+    color: #6c6c6c;
+    font-weight: 530;
 }
 
 .bar-stat-container{
@@ -157,14 +157,15 @@
 .bar-stat-rate{
     width: 70%;
     height: 5px;
-    background: #000000;
+    background: var(--primary-color);
 }
 
+/* sub conatiner, 2nd div styling */
 .company-sales-stat{
     width: 100%;
-    height: 180px;
-    background: #000000;
-    border-radius: 15px;
+    height: 190px;
+    background: var(--primary-color);
+    border-radius: 20px;
 }
 
 .company-sales-data-stat{
@@ -173,11 +174,15 @@
     background: url('../assets/statimage.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: #ffffff;
-    border-radius: 15px;
+    color: var(--secondary-color);
+    border-radius: 20px;
     padding: 15px;
     display: flex;
     position: relative;
+}
+
+.company-mission-text{
+    padding: 0px 10px;
 }
 
 .company-mission-text-line-data{
@@ -189,23 +194,22 @@
 }
 
 .company-mission-text-line-data>.line{
-    width: 40px;
     height: 1px;
-    background: #ffffff;
 }
 
 .company-mission-text-line-data>p{
-    font-size: 12px;
+    font-size: 15px;
+    color: #e6e5e5;
 }
 
 .company-mission-text>h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
 }
 
 .company-sales-rates{
    display: flex;
-   width: 200px;
+   width: 50%;
 }
 
 .company-sales-rates-bar{
@@ -233,4 +237,129 @@
     height: 130px;
     width: 50px;
     background: #7BB34E;
+}
+
+
+@media (max-width: 900px) {
+    /* home container styling */
+    .home-container{
+        padding-top: 2.5rem;
+        gap: 2rem;
+    }
+
+    /* sub container one styling */
+    .sub-container-one{
+        gap: 20px;
+    }
+
+    .sub-container-one>h2{
+        font-size: 40px;
+    }
+
+    .schedule-container{
+        gap: 2rem;
+    }
+
+    .schedule-btn>button{
+        font-size: 12px;
+        padding: 7px 20px;
+    }
+
+    #arrow-icon{
+        padding-left: 15px;
+    }
+
+    #viewCaseStudy-link{
+        font-size: 12px;
+    }
+
+    .brand-container{
+        padding: 30px 0px;
+        gap: 1rem;
+    }
+
+    .brand-container>h6{
+        font-size: 12px;
+    }
+
+    .brandImages{
+        gap: 8px;
+    }
+
+    .brandImages>img{
+        height: auto;
+        max-width: 70px;
+    }
+
+    /* sub container 2 styling */
+    .company-work-growth{
+        gap: 15px;
+    }
+
+    .computerImage{
+        width: 180px;
+        height: 150px;
+        padding-right: 15px;
+    }
+
+    .company-growth-data{
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .company-growth-data>h1{
+        font-size: 43px;
+    }
+
+    .company-growth-data>p{
+        font-size: 10px;
+    }
+
+    .bar-stat-container,.bar-stat-rate{
+        height: 4px;
+    }
+
+    /* sub conatiner, 2nd div styling */
+    .company-sales-stat{
+        width: 100%;
+        height: 120px;
+    }
+
+    .company-sales-data-stat{
+        padding: 10px;
+    }
+
+    .company-mission-text-line-data>.line{
+        width: 30px;
+        height: 0.7px;
+    }
+
+    .company-mission-text-line-data>p{
+        font-size: 8px;
+    }
+
+    .company-mission-text>h2{
+        font-size: 20px;
+    }
+
+    .company-sales-rates-bar{
+        gap: 7px;
+        right: 10px;
+    }
+    .stat-light-green, .stat-green, .stat-dark-green{
+        width: 25px;
+    }
+    .stat-light-green{
+        height: 50px;
+    }
+
+    .stat-green{
+        height: 70px;
+    }
+
+    .stat-dark-green{
+        height: 90px;
+    }
+    
 }

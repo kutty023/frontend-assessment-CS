@@ -31,7 +31,7 @@
 .brand-logo-black{
     width: 1rem;
     height: 1rem;
-    background-color: #000000;
+    background-color: var(--primary-color);
     border-radius: 0px 0px 50px 0px;
     position: relative;
     top: 10px;
@@ -42,7 +42,7 @@
 .navbar-links>ul{
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 550;
     gap: 2rem;
 }
@@ -78,10 +78,10 @@
 #get-started-btn{
     border-radius: 50px;
     font-size: 16px;
-    padding: 10px 25px;
+    padding: 10px 30px;
     font-weight: 550;
     background: none;
-    border: solid 2px #000000;
+    border: solid 2px var(--primary-color);
 }
 
 
@@ -89,7 +89,7 @@
     width: 40px;
     height: 40px;
     padding: 5px;
-    background-color: black;
+    background-color: var(--primary-color);
     border-radius: 50px;
     display: flex;
     justify-content: center;

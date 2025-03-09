@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+:root{
+  --primary-color: #000000;  
+  --secondary-color: #ffffff;
+  --text-color: #A1A1A1; 
+  --background-color: #F7F7F7;
+  --para-font-size: 15px;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -10,7 +18,7 @@
 body{
   width: 100%;
   height: 100%;
-  background: #F7F7F7;
+  background: var(--background-color);
 }
 
 .container{
@@ -18,8 +26,27 @@ body{
   justify-self: center;
 }
 
+.divided-section-part1, .divided-section-part2{
+  width: 50%;
+}
+
+.p-grey{
+  font-size: var(--para-font-size);
+  color: var(--text-color);
+  font-weight: 450;
+}
+
+.line{
+  width: 40px;
+  background: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .container{
     width: 90vw;
+  }
+
+  .p-grey{
+    font-size: 12px;
   }
 }

@@ -9,11 +9,11 @@ function Home(){
     return(
     <div className='container'>
         <section className="home-container">
-            <div className="sub-container-one">
+            <div className="sub-container-one divided-section-part1">
                 <h2>
                     Stay ahead of the curve with our forward-thinking
                 </h2>
-                <p>
+                <p className='p-grey'>
                     An award-winning SEO agency with disciplines in digital marketing, design, and website development, focused on understanding you.
                 </p>
                 <div className='schedule-container'>
@@ -34,7 +34,7 @@ function Home(){
                 </div>
             </div>
 
-            <div className="sub-container-two">
+            <div className="sub-container-two .divided-section-part1">
                 <div className='company-work-growth'>
                     <div className='computerImage'>
                         <div className='grow-stat-black'>
